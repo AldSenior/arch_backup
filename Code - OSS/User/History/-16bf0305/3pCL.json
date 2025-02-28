@@ -1,0 +1,5 @@
+{
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.settings.useSplitJSON": true
+}

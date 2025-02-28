@@ -1,0 +1,5 @@
+2025-03-01 10:22:27.236 [info] Started local extension host with pid 1357.
+2025-03-01 10:22:32.765 [error] Error while getting the latest version for the extension esbenp.prettier-vscode. Cannot read properties of undefined (reading 'replace')
+2025-03-01 10:22:39.838 [info] [perf] Render performance baseline is 347ms
+2025-02-28 10:33:11.102 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-28 10:33:26.160 [warning] Settings pattern "issueReporter.*" doesn't match any settings

@@ -1,0 +1,29 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <selected-state>
+              <State>
+                <id>User defined</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="469" y="215" key="SettingsEditor" timestamp="1740761434746">
+          <screen x="0" y="0" width="1920" height="1080" />
+        </state>
+        <state x="469" y="215" key="SettingsEditor/0.0.1920.1080" timestamp="1740761434746" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

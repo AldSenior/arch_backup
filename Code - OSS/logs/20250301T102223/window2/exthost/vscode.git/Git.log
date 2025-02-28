@@ -1,0 +1,103 @@
+2025-02-28 10:30:52.869 [info] [main] Log level: Info
+2025-02-28 10:30:52.869 [info] [main] Validating found git in: "git"
+2025-02-28 10:30:52.869 [info] [main] Using git "2.48.1" from "git"
+2025-02-28 10:30:52.869 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 10:30:52.870 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-28 10:37:24.465 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-28 10:37:24.466 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:38:47.132 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-28 10:38:47.132 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:38:49.740 [info] > git rev-parse --show-toplevel [36ms]
+2025-02-28 10:38:49.740 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:38.944 [info] [main] Log level: Info
+2025-02-28 10:40:38.944 [info] [main] Validating found git in: "git"
+2025-02-28 10:40:38.944 [info] [main] Using git "2.48.1" from "git"
+2025-02-28 10:40:38.944 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 10:40:38.944 [info] > git rev-parse --show-toplevel [14ms]
+2025-02-28 10:40:38.944 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:38.968 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-28 10:40:38.968 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:38.986 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-28 10:40:38.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:39.004 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-28 10:40:39.004 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:39.005 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-28 10:40:50.421 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-28 10:40:50.421 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:53.959 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-28 10:40:53.959 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:40:54.607 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-28 10:40:54.607 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:09.238 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-28 10:41:09.238 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:11.687 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-28 10:41:11.687 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:15.159 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-28 10:41:15.159 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:16.910 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-28 10:41:16.910 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:17.637 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-28 10:41:17.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:30.900 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-28 10:41:30.901 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:36.230 [info] > git rev-parse --show-toplevel [21ms]
+2025-02-28 10:41:36.231 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:55.795 [info] [main] Log level: Info
+2025-02-28 10:41:55.795 [info] [main] Validating found git in: "git"
+2025-02-28 10:41:55.795 [info] [main] Using git "2.48.1" from "git"
+2025-02-28 10:41:55.795 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 10:41:55.795 [info] > git rev-parse --show-toplevel [33ms]
+2025-02-28 10:41:55.795 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:55.813 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-28 10:41:55.813 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:55.833 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-28 10:41:55.833 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:41:55.834 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-28 10:41:58.059 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-28 10:41:58.059 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-28 10:42:51.854 [info] [main] Log level: Info
+2025-02-28 10:42:51.854 [info] [main] Validating found git in: "git"
+2025-02-28 10:42:51.854 [info] [main] Using git "2.48.1" from "git"
+2025-02-28 10:42:51.855 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-28 10:42:51.855 [info] > git rev-parse --show-toplevel [65ms]
+2025-02-28 10:42:51.855 [info] > git rev-parse --git-dir --git-common-dir [40ms]
+2025-02-28 10:42:51.855 [info] [Model][openRepository] Opened repository: /home/arthur/Desktop/CheesMate/Cheesmate
+2025-02-28 10:42:51.885 [info] > git rev-parse --show-toplevel [1602ms]
+2025-02-28 10:42:51.900 [info] > git config --get commit.template [1701ms]
+2025-02-28 10:42:52.848 [info] > git check-ignore -v -z --stdin [135ms]
+2025-02-28 10:42:52.863 [info] > git rev-parse --show-toplevel [289ms]
+2025-02-28 10:42:53.094 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [259ms]
+2025-02-28 10:42:53.146 [info] > git rev-parse --show-toplevel [77ms]
+2025-02-28 10:42:53.409 [info] > git status -z -uall [102ms]
+2025-02-28 10:42:53.425 [info] > git rev-parse --show-toplevel [213ms]
+2025-02-28 10:42:53.539 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [185ms]
+2025-02-28 10:42:53.859 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [201ms]
+2025-02-28 10:42:53.910 [info] > git rev-parse --show-toplevel [373ms]
+2025-02-28 10:42:53.925 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-28 10:42:54.230 [info] > git show --textconv :chees-project/src/models/Board.ts [250ms]
+2025-02-28 10:42:54.230 [info] > git show --textconv :chees-project/src/models/figures/Figure.ts [117ms]
+2025-02-28 10:42:54.235 [info] > git ls-files --stage -- /home/arthur/Desktop/CheesMate/Cheesmate/chees-project/src/models/Board.ts [180ms]
+2025-02-28 10:42:54.305 [info] > git config --get --local branch.main.vscode-merge-base [396ms]
+2025-02-28 10:42:54.388 [info] > git config --get commit.template [563ms]
+2025-02-28 10:42:54.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [53ms]
+2025-02-28 10:42:54.531 [info] > git cat-file -s dfe2f16180e5dc2bfd7e81fc1dc2ee3498554233 [225ms]
+2025-02-28 10:42:54.532 [info] > git ls-files --stage -- /home/arthur/Desktop/CheesMate/Cheesmate/chees-project/src/models/figures/Figure.ts [362ms]
+2025-02-28 10:42:54.782 [info] > git cat-file -s 1b4112c954421993e9e0449c698297cfd4a8cea7 [199ms]
+2025-02-28 10:42:54.783 [info] > git merge-base refs/heads/main refs/remotes/origin/main [262ms]
+2025-02-28 10:42:54.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2025-02-28 10:42:54.868 [info] > git diff --name-status -z --diff-filter=ADMR d6a116e927031ee46e678564ff1268e1816bfe4e...refs/remotes/origin/main [42ms]
+2025-02-28 10:42:54.972 [info] > git status -z -uall [68ms]
+2025-02-28 10:42:55.045 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [83ms]
+2025-02-28 10:42:55.664 [info] > git blame --root --incremental d6a116e927031ee46e678564ff1268e1816bfe4e -- /home/arthur/Desktop/CheesMate/Cheesmate/chees-project/src/models/Board.ts [25ms]
+2025-02-28 10:43:12.156 [info] > git config --get commit.template [17ms]
+2025-02-28 10:43:12.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-02-28 10:43:12.189 [info] > git status -z -uall [18ms]
+2025-02-28 10:43:12.193 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2025-02-28 10:43:17.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-28 10:43:17.252 [info] > git config --get commit.template [25ms]
+2025-02-28 10:43:17.286 [info] > git status -z -uall [16ms]
+2025-02-28 10:43:17.288 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-28 10:43:22.354 [info] > git config --get commit.template [7ms]
+2025-02-28 10:43:22.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-02-28 10:43:22.492 [info] > git status -z -uall [37ms]
+2025-02-28 10:43:22.492 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]

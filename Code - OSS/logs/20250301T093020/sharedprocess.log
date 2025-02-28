@@ -1,0 +1,7 @@
+2025-03-01 09:46:33.494 [info] Getting Manifest... esbenp.prettier-vscode
+2025-03-01 09:46:34.816 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arthur/.vscode-oss/extensions/extensions.json","path":"/home/arthur/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-13T18:45:48.570Z"}}
+2025-03-01 09:46:49.980 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-03-01 09:46:49.981 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2025-03-01 09:46:50.444 [info] Extracted extension to file:///home/arthur/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2025-03-01 09:46:50.473 [info] Renamed to /home/arthur/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2025-03-01 09:46:50.510 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/arthur/.vscode-oss/extensions/extensions.json

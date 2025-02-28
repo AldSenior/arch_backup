@@ -1,0 +1,159 @@
+{
+	"layer": "top",
+	"position": "top",
+	"mod": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"gtk-layer-shell": true,
+	"height": 50,
+	"modules-left": [
+		"clock",
+		"custom/weather",
+		"custom/keyboard_state",
+		"hyprland/workspaces"
+	],
+	"modules-center": ["hyprland/window"],
+	"modules-right": [
+		"network",
+		"custom/network-menu",
+		"bluetooth",
+		"custom/temperature",
+		"custom/memory",
+		"battery",
+		"backlight",
+		"pulseaudio",
+		"pulseaudio#microphone"
+	],
+
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+		"format-icons": {
+			"1": "😎",
+			"2": "🌐",
+			"3": "👩🏽‍💻",
+			"4": "📒",
+			"5": "🎵"
+		},
+		"persistent_workspaces": {
+			"*": 1
+		}
+	},
+	"hyprland/window": {
+		"format": "{}"
+	},
+	"custom/calendar": {
+		"format": "{}",
+		"interval": 3600, // Обновление каждый час
+		"exec": "~/.config/waybar/scripts/calendar.sh",
+		"on-click": "zenity --calendar --text 'Ваши события'"
+	},
+	"custom/weather": {
+		"tooltip": true,
+		"format": "{}",
+		"interval": 3600,
+		"exec": "~/.config/waybar/scripts/waybar-wttr.py",
+		"return-type": "json"
+	},
+	"custom/moon": {
+		"format": "{}",
+		"interval": 3600,
+		"exec": "moon"
+	},
+
+	"tray": {
+		"icon-size": 18,
+		"spacing": 10
+	},
+	"clock": {
+		"format": "{:%H:%M %p}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%m-%d}"
+	},
+	"custom/keyboard_state": {
+		"format": "{}",
+		"exec": "~/.config/waybar/scripts/check-layout",
+		"interval": 1
+	},
+	"backlight": {
+		"device": "intel_backlight",
+		"format": "{icon} {percent}%",
+		"format-icons": [
+			"🔅", // Иконка для низкой яркости
+			"🔆", // Иконка для средней яркости
+			"☀️" // Иконка для высокой яркости
+		],
+		"on-scroll-up": "brightnessctl -q set 1%+",
+		"on-scroll-down": "brightnessctl -q set 1%-"
+	},
+	"custom/network-menu": {
+		"format": "🌐",
+		"on-click": "/home/arthur/.config/waybar/scripts/network-menu",
+		"tooltip": false
+	},
+	"battery": {
+		"states": {
+			"good": 95,
+			"warning": 40,
+			"critical": 30
+		},
+		"format": "{icon} {capacity}%",
+		"format-charging": "🔌 {capacity}%",
+		"format-plugged": "🔌 {capacity}%",
+		"format-alt": "{time} {icon}",
+		"format-icons": ["🔋", "⚠️", "🪫"]
+	},
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"tooltip": false,
+		"format-muted": "🔇 Muted", // Иконка для звука в беззвучном режиме
+		"on-click": "pamixer -t",
+		"on-scroll-up": "pamixer -i 5",
+		"on-scroll-down": "pamixer -d 5",
+		"scroll-step": 100,
+		"format-icons": {
+			"headphone": "🎧", // Иконка для наушников
+			"hands-free": "🎤", // Иконка для гарнитуры
+			"headset": "🎧", // Иконка для гарнитуры
+			"phone": "📞", // Иконка для телефона
+			"portable": "📱", // Иконка для портативных устройств
+			"car": "🚗", // Иконка для автомобилей
+			"default": [
+				"🔇", // Иконка для нормального звука
+				"🔈", // Иконка для низкого уровня звука
+				"🔊" // Иконка для беззвучного режима
+			]
+		}
+	},
+
+	"pulseaudio#microphone": {
+		"format": "{icon} {format_source}", // Добавляем иконку
+		"format-source": "🎤 {volume}%", // Формат при включённом звуке
+		"format-source-muted": "🔇 Muted", // Иконка при выключенном звуке
+		"on-click": "pamixer --default-source -t", // Переключение звука
+		"on-scroll-up": "pamixer --default-source -i 5", // Увеличение громкости
+		"on-scroll-down": "pamixer --default-source -d 5", // Уменьшение громкости
+		"scroll-step": 5,
+		"icon": {
+			"default": "🎤", // Иконка для обычного состояния микрофона
+			"muted": "🔇" // Иконка для состояния, когда микрофон выключен
+		}
+	},
+	"network": {
+		"format-wifi": "{signalStrength}%",
+		"format-ethernet": "{ipaddr}/{cidr}",
+		"tooltip-format": "{essid} - {ifname} via {gwaddr}",
+		"format-linked": "{ifname} (No IP)",
+		"format-disconnected": "Нет соединения ⚠",
+		"format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+	},
+	"bluetooth": {
+		"format": "{status}",
+		"format-disabled": "",
+		"format-connected": "{num_connections}",
+		"tooltip-format": "{device_alias}",
+		"tooltip-format-connected": "{device_enumerate}",
+		"tooltip-format-enumerate-connected": "{device_alias}"
+	}
+}

@@ -1,0 +1,40 @@
+2025-03-01 10:22:36.899 [info] [main] Log level: Info
+2025-03-01 10:22:36.899 [info] [main] Validating found git in: "git"
+2025-03-01 10:22:36.899 [info] [main] Using git "2.48.1" from "git"
+2025-03-01 10:22:36.899 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-01 10:22:36.899 [info] > git rev-parse --show-toplevel [83ms]
+2025-03-01 10:22:36.899 [info] > git rev-parse --git-dir --git-common-dir [486ms]
+2025-03-01 10:22:36.899 [info] [Model][openRepository] Opened repository: /home/arthur/.config/waybar
+2025-03-01 10:22:36.918 [info] > git rev-parse --show-toplevel [91ms]
+2025-03-01 10:22:36.920 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-01 10:22:36.922 [info] > git config --get commit.template [112ms]
+2025-03-01 10:22:36.992 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-03-01 10:22:37.009 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/arthur/.config/waybar/.git/refs/remotes/origin/main'
+2025-03-01 10:22:37.024 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-03-01 10:22:37.075 [info] > git status -z -uall [34ms]
+2025-03-01 10:22:37.094 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2025-03-01 10:22:37.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [91ms]
+2025-03-01 10:22:37.339 [info] > git config --get --local branch.main.vscode-merge-base [25ms]
+2025-03-01 10:22:37.386 [info] > git config --get commit.template [125ms]
+2025-03-01 10:22:37.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [21ms]
+2025-03-01 10:22:37.487 [info] > git merge-base refs/heads/main refs/remotes/origin/main [49ms]
+2025-03-01 10:22:37.520 [info] > git diff --name-status -z --diff-filter=ADMR 6da802b36d58ea4dd639148fdabcfc67f5cb06b8...refs/remotes/origin/main [19ms]
+2025-03-01 10:22:37.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [67ms]
+2025-03-01 10:22:37.575 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/arthur/.config/waybar/.git/refs/remotes/origin/main'
+2025-03-01 10:22:37.597 [info] > git rev-parse refs/remotes/origin/main [21ms]
+2025-03-01 10:22:37.692 [info] > git status -z -uall [41ms]
+2025-03-01 10:22:37.700 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2025-03-01 10:22:37.850 [info] > git check-ignore -v -z --stdin [8ms]
+2025-03-01 10:22:38.171 [info] > git show --textconv :style.css [82ms]
+2025-03-01 10:22:38.172 [info] > git show --textconv :config.jsonc [23ms]
+2025-03-01 10:22:38.174 [info] > git ls-files --stage -- /home/arthur/.config/waybar/style.css [58ms]
+2025-03-01 10:22:38.204 [info] > git cat-file -s b69345d545b450de6ba59aba5edd18370e1924e9 [18ms]
+2025-03-01 10:22:38.206 [info] > git ls-files --stage -- /home/arthur/.config/waybar/config.jsonc [39ms]
+2025-03-01 10:22:38.241 [info] > git cat-file -s 3eb3d7cca9d4ff90539e9c4517b7eb293bc09e11 [8ms]
+2025-03-01 10:22:38.560 [info] > git blame --root --incremental 6da802b36d58ea4dd639148fdabcfc67f5cb06b8 -- /home/arthur/.config/waybar/config.jsonc [6ms]
+2025-02-28 16:30:11.016 [info] > git config --get commit.template [11ms]
+2025-02-28 16:30:11.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-28 16:30:11.026 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/arthur/.config/waybar/.git/refs/remotes/origin/main'
+2025-02-28 16:30:11.027 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-28 16:30:11.047 [info] > git status -z -uall [12ms]
+2025-02-28 16:30:11.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]

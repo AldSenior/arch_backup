@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Получаем текущую раскладку
+current_layout=$(hyprctl devices | grep "active keymap" | tail -n 1 | awk '{print $3}')
+# Выводим результат
+if [ "$current_layout" == "English" ]; then
+    echo "English (us)"
+elif [ "$current_layout" == "Russian" ]; then
+    echo "Russian (ru)"
+else
+    echo "Current layout: $current_layout"
+fi

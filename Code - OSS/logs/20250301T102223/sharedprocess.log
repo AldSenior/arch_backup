@@ -1,0 +1,7 @@
+2025-02-28 10:38:45.303 [info] Getting Manifest... miguelsolorio.fluent-icons
+2025-02-28 10:38:46.294 [info] Installing extension: miguelsolorio.fluent-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/arthur/.vscode-oss/extensions/extensions.json","path":"/home/arthur/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.2","date":"2025-02-13T18:45:48.570Z"}}
+2025-02-28 10:38:50.659 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-02-28 10:38:50.660 [info] Extension signature verification is not done: miguelsolorio.fluent-icons
+2025-02-28 10:38:52.141 [info] Extracted extension to file:///home/arthur/.vscode-oss/extensions/miguelsolorio.fluent-icons-0.0.19-universal: miguelsolorio.fluent-icons
+2025-02-28 10:38:52.200 [info] Renamed to /home/arthur/.vscode-oss/extensions/miguelsolorio.fluent-icons-0.0.19-universal
+2025-02-28 10:38:52.276 [info] Extension installed successfully: miguelsolorio.fluent-icons vscode-userdata:/home/arthur/.vscode-oss/extensions/extensions.json

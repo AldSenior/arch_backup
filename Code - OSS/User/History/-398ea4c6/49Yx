@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Получаем список доступных сетей
+networks=$(nmcli -t -f SSID dev wifi list | sed 's/\\:/:/g')
+
+# Создаем меню с помощью rofi или wofi
+chosen_network=$(echo -e "$networks" | wofi --dmenu --prompt "Выберите сеть:" --style ~/.config/wofi/style.css --conf ~/.config/wofi/config)
+
+# Подключаемся к выбранной сети
+if [ -n "$chosen_network" ]; then
+    nmcli dev wifi connect "$chosen_network"
+fi

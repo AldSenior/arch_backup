@@ -1,0 +1,4 @@
+[calendars]
+	[[personal]]
+	path = /home/arthur/.calendars/personal/
+	color = light blue

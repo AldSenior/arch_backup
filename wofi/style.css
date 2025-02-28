@@ -1,0 +1,42 @@
+/* Общие стили для окна */
+window {
+    background-color: #1e1e2e; /* Цвет фона */
+    color: #cdd6f4; /* Цвет текста */
+    border-radius: 10px; /* Закругление углов */
+    font-family: "Monospace";
+    font-size: 14px;
+}
+
+/* Стили для строки ввода */
+#input {
+    background-color: #313244; /* Цвет фона строки ввода */
+    color: #cdd6f4; /* Цвет текста строки ввода */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Стили для списка */
+#scroll {
+    background-color: #1e1e2e; /* Цвет фона списка */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Стили для элементов списка */
+#entry {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Стили для выбранного элемента */
+#entry:selected {
+    background-color: #585b70; /* Цвет фона выбранного элемента */
+    color: #cdd6f4; /* Цвет текста выбранного элемента */
+}
+
+/* Стили для текста внутри элементов */
+#text {
+    color: #cdd6f4; /* Цвет текста */
+}

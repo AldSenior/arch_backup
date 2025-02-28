@@ -1,0 +1,10 @@
+2025-02-28 20:04:21.337 [info] Extension host with pid 21700 started
+2025-02-28 20:04:22.274 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-28 20:04:22.849 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-02-28 20:04:24.346 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-28 20:04:24.607 [info] Eager extensions activated
+2025-02-28 20:04:24.701 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-28 20:04:24.740 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-28 20:04:24.925 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-02-28 20:07:16.834 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-28 20:07:16.860 [info] Extension host with pid 21700 exiting with code 0

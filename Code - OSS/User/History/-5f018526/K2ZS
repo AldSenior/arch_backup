@@ -1,0 +1,7 @@
+# ~/.config/waybar/scripts/calendar.sh
+EVENT=$(khal list today | head -2 | tail -1 | sed 's/^ *//g')
+if [ -z "$EVENT" ]; then
+    echo "📅 Нет событий"
+else
+    echo "📅 $EVENT"
+fi
